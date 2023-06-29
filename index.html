@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I am <span>Shreya</span></h1>
+                <p>Fronted Devloper</p>
+                <br>
+                <p>High level experience in  design<br> and development knowledge.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mayank4.jpg" alt="shreya">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am shreya kumari and i am fronted developer.i am fresher.i have work on a variety of project for clients in reatil, travel, and health indusries, i am passionate about creating great user experience and have a strong understanding . <br>fronted development is application of web developmentand i learn a html css javascript <br>i am developing new user-facing feature.determining the structure and design of web poage building reusable code,optimizing page loading time markup lang to create the web page <br>i also use all skill in project real timechat application.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>javascript</li>
+                            <li>DBMS</li>
+                            <li>C</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>B.TECH at loknayak jaiprakash institute of technology chapra</li>
+                            <li><span>2018</span><br>Intermediate from secondary high school rosera</li>
+                            <li><span>2016</span><br>matriculation from girls high school rosera</li>
+                            
+    
+
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                   <p>web design is the process of planning conceptualizing and implementing designing a website in way that is functional and offer a good user experience .user is central to the web designing .website have a array of element in ways that make them easy to navigate</p>
+                   <a href="#">view more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI Design</h2>
+                   <p>user interface design is the process designer use to build interface in software or computerized device, focusing on looks or style.</p>
+                   <a href="#">view more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                   <p>web app design is the creating a website that delivers a seamless user experience and meet users core need with a clear .amet consectetur adipisicing elit. Dolores delectus rem,<br> necessitatibus amet repellat illum cupiditate err</p>
+                   <a href="#">view more</a>
+                </div>
+                </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="sriza.jpg" alt="sriza">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p> This app is real time chat connect you to one people to another people .it is free download  </p>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="shreya - Copy.jpg" alt="sriza">
+                    <div class="layer">
+                    <h3>Food responsive website</h3>
+                        <p> This website is to help customer choose you over other eateries.if you include the above feature you make it easier for dinner to choose you </p>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mayank.jpg" alt="sriza">
+                    <div class="layer">
+                
+                    <h3>Library management system </h3>
+                        <p>Library management system is as software that has been manage basic housekeeping function of library.it is store information of book as well as user as well as staff.</p>
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8789368924</p>
+                <div class="social-icons">
+                    <a href="https://facebook,com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a download="" href="Shreya_Resume_2 (1).pdf" class="btn btn2">Download Resume</a>
+              </div>
+              <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+           </div>
+        </div>
+        <div class="copyright">
+           <p>Copyright c shreya. Made with <i class="fas fa-heart"></i> by easy Tutorial</p>
+
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+                
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxu4TNS4_dlRsoIHwvg1vvzkWPONzkJ0XQUZi7qdeIeCNfZRQXO6lr2Kj4aXThbOmru/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e =>{
+            e.preventDefault()
+            fetch(scriptURL, {method: 'Post', body: new FormData(form)})
+             .then(response =>{
+                msg.innerHTML = "Message Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+             })
+             .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
